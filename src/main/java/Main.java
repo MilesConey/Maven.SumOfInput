@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args){
         Scanner sumPrinter = new Scanner(System.in);
-        System.out.println("enter a number:");
+        System.out.println("enter a number:");  // not 100% sure why yet, but need system.out after system.in
         int n = sumPrinter.nextInt();
         int sum = 0;
 
